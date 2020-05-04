@@ -32,25 +32,25 @@ This document uses UML to describre the general structure and functions that thi
 - Retailers
 - Consumers
 
-# Activity Diagram
+## Activity Diagram
 
 This diagram shows the different actors and the interactions with the system.
 
 ![Activity Diagram](uml/ActivityDiagram.png)
 
-# Sequence Diagram
+## Sequence Diagram
 
 This diagram shows the communication between the different objects and their life cycle.
 
 ![Sequence Diagram](uml/SequenceDiagram.png)
 
-# State Diagram
+## State Diagram
 
 This diagram shows the different states of each object and the events or conditions that change those states.
 
 ![State Diagram](uml/StateDiagram.png)
 
-# Data Modeling Diagram
+## Data Modeling Diagram
 
 This diagram shows the different Smart Contracts and the relation between them
 
