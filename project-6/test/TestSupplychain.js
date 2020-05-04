@@ -55,7 +55,8 @@ contract('SupplyChain', function(accounts) {
         // await event.watch((err, res) => {
         //     eventEmitted = true
         // })
-
+        
+        await supplyChain.addFarmer(originFarmerID, { from: ownerID });
         // Mark an item as Harvested by calling function harvestItem()
         let tx = await supplyChain.harvestItem(upc, originFarmerID, originFarmName, originFarmInformation, originFarmLatitude, originFarmLongitude, productNotes, { from: originFarmerID })
 
@@ -152,6 +153,8 @@ contract('SupplyChain', function(accounts) {
         // Watch the emitted event Sold()
         // var event = supplyChain.Sold()
 
+        await supplyChain.addDistributor(distributorID, { from: ownerID });
+
         // Mark an item as Sold by calling function buyItem()
         let tx = await supplyChain.buyItem(upc,{ from: distributorID, value: productPrice });
 
@@ -195,6 +198,8 @@ contract('SupplyChain', function(accounts) {
         
         // Watch the emitted event Received()
 
+        await supplyChain.addRetailer(retailerID, { from: ownerID });
+        
         // Mark an item as Sold by calling function buyItem()
         let tx = await supplyChain.receiveItem(upc,{ from: retailerID });
 
@@ -217,6 +222,8 @@ contract('SupplyChain', function(accounts) {
         // Declare and Initialize a variable for event
         
         // Watch the emitted event Purchased()
+
+        await supplyChain.addConsumer(consumerID, { from: ownerID });
         
         // Mark an item as Sold by calling function buyItem()
         let tx = await supplyChain.purchaseItem(upc,{ from: consumerID });

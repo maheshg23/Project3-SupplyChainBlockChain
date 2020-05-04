@@ -1,5 +1,7 @@
 pragma solidity >0.5.0;
 
+// import '../coffee/SupplyChain.sol';
+
 /// Provides basic authorization control
 contract Ownable {
     address private origOwner;
@@ -42,7 +44,7 @@ contract Ownable {
 
     /// Define an internal function to transfer ownership
     function _transferOwnership(address newOwner) internal {
-        require(newOwner != address(0), "New Owner iis an Blank Address");
+        require(newOwner != address(0), "New Owner is an Blank Address");
         emit TransferOwnership(origOwner, newOwner);
         origOwner = newOwner;
     }

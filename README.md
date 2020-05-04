@@ -7,20 +7,20 @@ This repository containts an Ethereum DApp that demonstrates a Supply Chain flow
 ```
    Deploying 'SupplyChain'
    -----------------------
-   > transaction hash:    0x043675fa77f2fe00fc4c209d656c4f0e4b8c5c59b08ba4d5a71c758ec1e76939
+   > transaction hash:    0xc89209321cd10bbbafb2de70955ca404fdbf35c1aa4c8412d5c6d5326c9f1f21
    > Blocks: 1            Seconds: 12
-   > contract address:    0x45177723BD60F3E6B2c1ab19C39D8C0D433F537f
-   > block number:        6425700
-   > block timestamp:     1588540932
+   > contract address:    0xF2a9CeCce462B0F6dFbACF2f3464361096dAE911
+   > block number:        6428725
+   > block timestamp:     1588586313
    > account:             0xc677420923196099E2e3feF15761dde98F3c90FF
-   > balance:             18.593817088900000001
-   > gas used:            1932113
+   > balance:             18.548189447900000002
+   > gas used:            2978733
    > gas price:           10 gwei
    > value sent:          0 ETH
-   > total cost:          0.01932113 ETH
+   > total cost:          0.02978733 ETH
 ```
 
-Link to the Contract: https://rinkeby.etherscan.io/address/0x45177723BD60F3E6B2c1ab19C39D8C0D433F537f
+Link to the Contract: https://rinkeby.etherscan.io/address/0xF2a9CeCce462B0F6dFbACF2f3464361096dAE911
 
 ## Description
 
