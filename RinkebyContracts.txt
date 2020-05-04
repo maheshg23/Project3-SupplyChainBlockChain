@@ -1,0 +1,43 @@
+The Contract Address 
+
+   Deploying 'FarmerRole'
+   ----------------------
+   > transaction hash:    0x8dbace4fe8dd66819d45d0e092a202993d83d6261c40bfb08e0f3e154386805d
+   > contract address:    0x9976492B5654d896880e9FEcc46c6951B7cA703D
+   > block number:        6425696
+   > account:             0xc677420923196099E2e3feF15761dde98F3c90FF
+
+   Deploying 'DistributorRole'
+   ---------------------------
+   > transaction hash:    0x958fa3c1237046807ab6ed1bd533042d1df33f04005eb4367f1151f218e79c06
+   > contract address:    0x3B936Aa35E94bb20F20407d76E27306EC4163e84
+   > block number:        6425697
+   > account:             0xc677420923196099E2e3feF15761dde98F3c90FF
+
+   Deploying 'RetailerRole'
+   ------------------------
+   > transaction hash:    0xf156fa554f596c39967812ee1bd09c6e357817380b89133dda9f6711aea2e5d3
+   > contract address:    0xC69837D9EEA03a190B338D063bDf9cD96288FCC7
+   > block number:        6425698
+   > account:             0xc677420923196099E2e3feF15761dde98F3c90FF
+
+   Deploying 'ConsumerRole'
+   ------------------------
+   > transaction hash:    0xaa40b4e4f1b12adac7d5064754c7ac456682d573363a109aff25006ce7e41695
+   > contract address:    0xc8046E8B9261b8d9eF658c63A8Bed8B535Ff55C2
+   > block number:        6425699
+   > account:             0xc677420923196099E2e3feF15761dde98F3c90FF
+
+   Deploying 'SupplyChain'
+   -----------------------
+   > transaction hash:    0x043675fa77f2fe00fc4c209d656c4f0e4b8c5c59b08ba4d5a71c758ec1e76939
+   > contract address:    0x45177723BD60F3E6B2c1ab19C39D8C0D433F537f
+   > block number:        6425700
+   > account:             0xc677420923196099E2e3feF15761dde98F3c90FF
+
+
+
+* Truffle v5.1.14-nodeLTS.0 (core: 5.1.13)
+* Solidity v0.5.16 (solc-js)
+* Node v13.13.0
+* Web3.js v1.2.1
